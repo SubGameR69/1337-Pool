@@ -1,0 +1,14 @@
+To create the _$_MaRViN_$_ file.
+Escape each of the special chars with '\':
+	'"',
+	'\',
+	'?',
+	'$',
+	'*',
+	'''
+So the COMMAND to create the file is:
+echo -n 42 > \"\\\?\$\*\'MaRViN\'\*\$\?\\\"
+
+Note:
+	You cannot create such a file with this name in Windows OS.
+	This is possible only in Unix Base System.
